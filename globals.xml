@@ -1,0 +1,65 @@
+<globals>
+	<api>
+		<!-- Add shared enumdefs here. -->
+	</api>
+
+	<consts>
+		<color name="oled_black" value="0x000000" />
+		<color name="oled_white" value="0xffffff" />
+		<int name="oled_width" value="128" />
+		<int name="oled_height" value="32" />
+	</consts>
+
+	<styles>
+		<style
+			name="style_oled_screen"
+			bg_color="#oled_black"
+			bg_opa="100%"
+			border_width="0"
+			radius="0"
+			pad_all="0"
+			text_color="#oled_white"
+		/>
+		<style
+			name="style_oled_text"
+			text_color="#oled_white"
+			bg_opa="0"
+			pad_all="0"
+			border_width="0"
+		/>
+		<style
+			name="style_oled_muted"
+			text_color="#oled_white"
+			text_opa="75%"
+			bg_opa="0"
+			pad_all="0"
+			border_width="0"
+		/>
+		<style
+			name="style_oled_rule"
+			bg_color="#oled_white"
+			bg_opa="100%"
+			border_width="0"
+			radius="0"
+			pad_all="0"
+		/>
+	</styles>
+
+	<subjects>
+		<string name="miner_name" value="bitaxe" />
+		<string name="hashrate" value="0.00 TH/s" />
+		<string name="temperature" value="-- C" />
+		<string name="power" value="-- W" />
+		<string name="accepted" value="A:0" />
+		<string name="network" value="WiFi" />
+	</subjects>
+
+	<images>
+		<!-- Add monochrome image assets here if the OLED UI needs icons. -->
+	</images>
+
+	<fonts>
+		<!-- Keep this empty for now; add tiny fonts here when the firmware font choice is settled. -->
+	</fonts>
+</globals>
+

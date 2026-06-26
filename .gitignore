@@ -1,0 +1,9 @@
+.cache.json
+build/
+dist/
+export/
+*_gen.c
+*_gen.h
+file_list_gen.cmake
+component_lib_list_gen.cmake
+

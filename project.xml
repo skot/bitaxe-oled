@@ -1,0 +1,8 @@
+<project name="bitaxe_oled" lvgl_version="9.5.0">
+	<targets>
+		<target name="ssd1306_128x32">
+			<display width="128" height="32" />
+		</target>
+	</targets>
+</project>
+
