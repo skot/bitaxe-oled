@@ -3,11 +3,32 @@
 		<style name="style_oled_screen" />
 
 		<lv_obj width="128" height="32" style_bg_opa="0" style_border_width="0" style_radius="0" style_pad_all="0">
-			<lv_label x="0" y="0" text="0.00TH/s" style_text_color="#oled_white" style_bg_opa="0" />
+			<lv_label x="0" y="0" text="0.00 TH/s" style_text_color="#oled_white" style_bg_opa="0" />
 
-			<lv_label x="0" y="16" text="T --C" style_text_color="#oled_white" style_bg_opa="0" />
-			<lv_label x="48" y="16" text="P --W" style_text_color="#oled_white" style_bg_opa="0" />
-			<lv_label x="94" y="16" text="A 0" style_text_color="#oled_white" style_bg_opa="0" />
+			<lv_label
+				x="0"
+				y="25"
+				text="123G"
+				style_text_color="#oled_white"
+				style_text_font="font_portfolio_6x8"
+				style_bg_opa="0"
+			/>
+			<lv_label
+				x="50"
+				y="25"
+				text="75%"
+				style_text_color="#oled_white"
+				style_text_font="font_portfolio_6x8"
+				style_bg_opa="0"
+			/>
+			<lv_label
+				x="90"
+				y="25"
+				text="69ºC"
+				style_text_color="#oled_white"
+				style_text_font="font_portfolio_6x8"
+				style_bg_opa="0"
+			/>
 		</lv_obj>
 	</view>
 </screen>
