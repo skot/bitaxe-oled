@@ -3,12 +3,7 @@
 		<style name="style_oled_screen" />
 
 		<lv_obj width="128" height="32" style_bg_opa="0" style_border_width="0" style_radius="0" style_pad_all="0">
-			<lv_label x="0" y="0" text="bitaxe" style_text_color="#oled_white" style_bg_opa="0" />
-			<lv_label x="73" y="0" text="0.00TH/s" style_text_color="#oled_white" style_bg_opa="0" />
-
-			<lv_obj x="0" y="12" width="128" height="1">
-				<style name="style_oled_rule" />
-			</lv_obj>
+			<lv_label x="0" y="0" text="0.00TH/s" style_text_color="#oled_white" style_bg_opa="0" />
 
 			<lv_label x="0" y="16" text="T --C" style_text_color="#oled_white" style_bg_opa="0" />
 			<lv_label x="48" y="16" text="P --W" style_text_color="#oled_white" style_bg_opa="0" />
@@ -16,4 +11,3 @@
 		</lv_obj>
 	</view>
 </screen>
-
