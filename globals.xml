@@ -19,10 +19,12 @@
 			radius="0"
 			pad_all="0"
 			text_color="#oled_white"
+			text_font="font_portfolio_6x8"
 		/>
 		<style
 			name="style_oled_text"
 			text_color="#oled_white"
+			text_font="font_portfolio_6x8"
 			bg_opa="0"
 			pad_all="0"
 			border_width="0"
@@ -59,7 +61,14 @@
 	</images>
 
 	<fonts>
-		<!-- Keep this empty for now; add tiny fonts here when the firmware font choice is settled. -->
+		<bin
+			name="font_portfolio_6x8"
+			as_file="false"
+			src_path="fonts/Mx437_Portfolio_6x8.ttf"
+			size="8"
+			bpp="1"
+			range="0x20-0x7F"
+			symbols="°↑↓↕"
+		/>
 	</fonts>
 </globals>
-
