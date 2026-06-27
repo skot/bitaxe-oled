@@ -30,7 +30,7 @@
 			/>
 			<lv_label
 				x="0"
-				y="24"
+				y="25"
 				text="123G"
 				style_text_color="#oled_white"
 				style_text_font="font_portfolio_6x8"
@@ -46,7 +46,7 @@
 			/>
 			<lv_label
 				x="55"
-				y="24"
+				y="25"
 				text="75%"
 				style_text_color="#oled_white"
 				style_text_font="font_portfolio_6x8"
@@ -62,7 +62,7 @@
 			/>
 			<lv_label
 				x="100"
-				y="24"
+				y="25"
 				text="69ºC"
 				style_text_color="#oled_white"
 				style_text_font="font_portfolio_6x8"

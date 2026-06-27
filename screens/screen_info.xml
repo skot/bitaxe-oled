@@ -1,0 +1,33 @@
+<screen>
+	<view>
+		<style name="style_oled_screen" />
+
+		<lv_obj
+			width="128"
+			height="32"
+			scrollable="false"
+			scrollbar_mode="off"
+			style_bg_opa="0"
+			style_border_width="0"
+			style_radius="0"
+			style_pad_all="0"
+		>
+			<lv_label
+				x="45"
+				y="8"
+				text="HTTP://"
+				style_text_color="#oled_white"
+				style_text_font="font_portfolio_6x8"
+				style_bg_opa="0"
+			/>
+			<lv_label
+				x="5"
+				y="18"
+				text="192.168.255.123"
+				style_text_color="#oled_white"
+				style_text_font="font_nix8810_m15"
+				style_bg_opa="0"
+			/>
+		</lv_obj>
+	</view>
+</screen>
