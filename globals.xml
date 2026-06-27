@@ -70,5 +70,14 @@
 			range="0x20-0x7F"
 			symbols="°↑↓↕"
 		/>
+		<bin
+			name="font_nix8810_m15"
+			as_file="false"
+			src_path="fonts/Ac437_Nix8810_M15.ttf"
+			size="8"
+			bpp="1"
+			range="0x20-0x7F"
+			symbols="°↑↓↕"
+		/>
 	</fonts>
 </globals>
