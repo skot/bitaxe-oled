@@ -40,17 +40,6 @@
  *-------------------*/
 
 /*----------------
- * Fonts
- *----------------*/
-
-lv_font_t * font_portfolio_6x8;
-extern lv_font_t font_portfolio_6x8_data;
-
-/*----------------
- * Images
- *----------------*/
-
-/*----------------
  * Global styles
  *----------------*/
 
@@ -58,6 +47,21 @@ lv_style_t style_oled_screen;
 lv_style_t style_oled_text;
 lv_style_t style_oled_muted;
 lv_style_t style_oled_rule;
+
+/*----------------
+ * Fonts
+ *----------------*/
+
+lv_font_t * font_portfolio_6x8;
+extern lv_font_t font_portfolio_6x8_data;
+lv_font_t * font_nix8810_m15;
+extern lv_font_t font_nix8810_m15_data;
+lv_font_t * font_fmtowns_8x16;
+extern lv_font_t font_fmtowns_8x16_data;
+
+/*----------------
+ * Images
+ *----------------*/
 
 /*----------------
  * Subjects
@@ -82,18 +86,6 @@ void bitaxe_oled_init_gen(const char * asset_path)
 {
     char buf[256];
 
-
-    /*----------------
-     * Fonts
-     *----------------*/
-
-    /* get font 'font_portfolio_6x8' from a C array */
-    font_portfolio_6x8 = &font_portfolio_6x8_data;
-
-
-    /*----------------
-     * Images
-     *----------------*/
     /*----------------
      * Global styles
      *----------------*/
@@ -134,6 +126,21 @@ void bitaxe_oled_init_gen(const char * asset_path)
         style_inited = true;
     }
 
+    /*----------------
+     * Fonts
+     *----------------*/
+
+    /* get font 'font_portfolio_6x8' from a C array */
+    font_portfolio_6x8 = &font_portfolio_6x8_data;
+    /* get font 'font_nix8810_m15' from a C array */
+    font_nix8810_m15 = &font_nix8810_m15_data;
+    /* get font 'font_fmtowns_8x16' from a C array */
+    font_fmtowns_8x16 = &font_fmtowns_8x16_data;
+
+
+    /*----------------
+     * Images
+     *----------------*/
     /*----------------
      * Subjects
      *----------------*/
@@ -195,6 +202,8 @@ void bitaxe_oled_init_gen(const char * asset_path)
 
     /* Register fonts */
     lv_xml_register_font(NULL, "font_portfolio_6x8", font_portfolio_6x8);
+    lv_xml_register_font(NULL, "font_nix8810_m15", font_nix8810_m15);
+    lv_xml_register_font(NULL, "font_fmtowns_8x16", font_fmtowns_8x16);
 
     /* Register subjects */
     lv_xml_register_subject(NULL, "miner_name", &miner_name);

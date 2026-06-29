@@ -72,5 +72,14 @@
 			range="0x20-0x7F"
 			symbols="°↑↓↕"
 		/>
+		<bin
+			name="font_fmtowns_8x16"
+			as_file="false"
+			src_path="fonts/Mx437_FMTowns_re_8x16.ttf"
+			size="16"
+			bpp="1"
+			range="0x20-0x7F"
+			symbols="°↑↓↕"
+		/>
 	</fonts>
 </globals>

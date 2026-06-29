@@ -19,17 +19,9 @@ extern "C" {
 
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
     #include "lvgl.h"
-    #include "lvgl_private.h"
 #else
     #include "lvgl/lvgl.h"
-    #include "lvgl/lvgl_private.h"
 #endif
-
-#ifdef LV_USE_XML
-    #include "lv_xml/lv_xml.h"
-#endif
-
-
 
 /*********************
  *      DEFINES
@@ -70,6 +62,10 @@ extern lv_style_t style_oled_rule;
 
 extern lv_font_t * font_portfolio_6x8;
 
+extern lv_font_t * font_nix8810_m15;
+
+extern lv_font_t * font_fmtowns_8x16;
+
 /*----------------
  * Images
  *----------------*/
@@ -107,7 +103,8 @@ void bitaxe_oled_init_gen(const char * asset_path);
  *   POST INCLUDES
  **********************/
 
-/*Include all the widgets, components and screens of this library*/
+/*Include all the widget and components of this library*/
+#include "screens/screen_info_gen.h"
 #include "screens/screen_status_gen.h"
 
 #ifdef __cplusplus

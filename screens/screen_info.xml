@@ -23,9 +23,9 @@
 			<lv_label
 				x="5"
 				y="18"
-				text="192.168.255.123"
+				text="192.168.345.790"
 				style_text_color="#oled_white"
-				style_text_font="font_nix8810_m15"
+				style_text_font="font_fmtowns_8x16"
 				style_bg_opa="0"
 			/>
 		</lv_obj>

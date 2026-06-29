@@ -15,14 +15,14 @@
 			<lv_label
 				x="0"
 				y="0"
-				text="2.66 TH/s"
+				text="2.669 TH/s"
 				style_text_color="#oled_white"
-				style_text_font="font_nix8810_m15"
+				style_text_font="font_fmtowns_8x16"
 				style_bg_opa="0"
 			/>
 			<lv_label
 				x="0"
-				y="15"
+				y="16"
 				text="BEST"
 				style_text_color="#oled_white"
 				style_text_font="font_portfolio_6x8"
@@ -38,7 +38,7 @@
 			/>
 			<lv_label
 				x="55"
-				y="15"
+				y="16"
 				text="FAN"
 				style_text_color="#oled_white"
 				style_text_font="font_portfolio_6x8"
@@ -54,7 +54,7 @@
 			/>
 			<lv_label
 				x="100"
-				y="15"
+				y="16"
 				text="TEMP"
 				style_text_color="#oled_white"
 				style_text_font="font_portfolio_6x8"
